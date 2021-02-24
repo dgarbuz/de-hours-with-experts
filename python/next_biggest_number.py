@@ -3,7 +3,7 @@ import sys
 from itertools import permutations
 
 def main():
-    next_biggest_number(sys.argv[1])
+    print(next_biggest_number(sys.argv[1]))
 
 def next_biggest_number(num):
     #Turn hopefully valid number into a string
